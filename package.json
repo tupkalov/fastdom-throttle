@@ -1,0 +1,19 @@
+{
+  "name": "fastdom-throttle",
+  "version": "1.0.0",
+  "description": "throttle functions wrapper which uses fastdom library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tupkalov/fastdom-throttle.git"
+  },
+  "author": "tupkalov <tupkalov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tupkalov/fastdom-throttle/issues"
+  },
+  "homepage": "https://github.com/tupkalov/fastdom-throttle#readme"
+}
