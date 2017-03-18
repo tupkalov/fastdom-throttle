@@ -10,7 +10,7 @@ module.exports = {
 			shedulesArgs = args;
 			if (sheduled) return;
 			sheduled = fastdom.measure(function () {
-				shdeuled = false;
+				sheduled = false;
 				callback(...shedulesArgs);
 			})
 		}
@@ -25,7 +25,7 @@ module.exports = {
 			shedulesArgs = args;
 			if (sheduled) return;
 			sheduled = fastdom.mutate(function () {
-				shdeuled = false;
+				sheduled = false;
 				callback(...shedulesArgs);
 			})
 		}
