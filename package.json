@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tupkalov/fastdom-throttle/issues"
   },
-  "homepage": "https://github.com/tupkalov/fastdom-throttle#readme"
+  "homepage": "https://github.com/tupkalov/fastdom-throttle#readme",
+  "dependencies": {
+    "fastdom": "^1.0.5"
+  }
 }
