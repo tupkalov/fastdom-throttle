@@ -2,7 +2,7 @@ const fastdom = require('fastdom');
 
 
 module.exports = {
-	throttleMeasure (callback) {
+	throttleMeasure : function (callback) {
 		var sheduled = false,
 			shedulesArgs;
 			
@@ -17,7 +17,7 @@ module.exports = {
 	},
 
 
-	throttleMutate (callback) {
+	throttleMutate : function (callback) {
 		var sheduled = false,
 			shedulesArgs;
 
