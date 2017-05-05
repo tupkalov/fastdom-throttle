@@ -1,6 +1,6 @@
 {
   "name": "fastdom-throttle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "throttle functions wrapper which uses fastdom library",
   "main": "index.js",
   "scripts": {

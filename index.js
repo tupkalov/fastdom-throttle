@@ -6,12 +6,12 @@ module.exports = {
 		var sheduled = false,
 			shedulesArgs;
 			
-		return function (...args) {
-			shedulesArgs = args;
+		return function () {
+			shedulesArgs = arguments;
 			if (sheduled) return;
 			sheduled = fastdom.measure(function () {
 				sheduled = false;
-				callback(...shedulesArgs);
+				callback.apply(this, shedulesArgs);
 			})
 		}
 	},
@@ -21,12 +21,12 @@ module.exports = {
 		var sheduled = false,
 			shedulesArgs;
 
-		return function (...args) {
-			shedulesArgs = args;
+		return function () {
+			shedulesArgs = arguments;
 			if (sheduled) return;
 			sheduled = fastdom.mutate(function () {
 				sheduled = false;
-				callback(...shedulesArgs);
+				callback.apply(this, shedulesArgs);
 			})
 		}
 	}
